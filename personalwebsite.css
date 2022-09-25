@@ -1,7 +1,8 @@
 body {
 	font-family: century gothic, sans-serif;
 	background-color: #E5E3E4
-		/*#F8EEE4#BDE0FE*/;
+		/*#F8EEE4#BDE0FE*/
+	;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -97,7 +98,7 @@ a:active {
 
 .vl {
 	border-left: 1vw solid #469697;
-	height: 42vw;
+	height: 55vw;
 	position: absolute;
 	left: 50%;
 	margin-top: 3vw;
@@ -305,6 +306,19 @@ dropdown:hover .dropbtn {
 	margin: 0vw;
 }
 
+.schoolLogo {
+	border-radius: 25vw;
+	height: 10vw;
+}
+
+.tableTextRightAlign{
+	padding-right: 1vw;
+}
+
+.tableTextLeftAlign{
+	text-align: left;
+}
+
 input[type=text],
 select,
 textarea {
@@ -380,26 +394,26 @@ input[type=submit]:hover {
 }
 
 
-#aboutPage{
+#aboutPage {
 	background-color: #BCC7C9;
 }
 
-#experiencePage{
+#experiencePage {
 	background-color: #E5E3E4;
 }
 
-#educationPage{
+#educationPage {
 	background-color: #BCC7C9;
 }
 
-#galleryPage{
+#galleryPage {
 	background-color: #E5E3E4;
 }
 
-#projectPage{
+#projectPage {
 	background-color: #BCC7C9;
 }
 
-#contactPage{
+#contactPage {
 	background-color: #E5E3E4;
 }
