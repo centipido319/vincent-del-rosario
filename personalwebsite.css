@@ -285,6 +285,7 @@ dropdown:hover .dropbtn {
 
 .polaroid {
 	width: 20vw;
+	/* background: #469697; */
 	box-shadow: 0 1vw 1vw 0 rgba(0, 0, 0, 0.2), 0 1vw 1vw 0 rgba(0, 0, 0, 0.19);
 	font-size: 1.3vw;
 	text-align: center;
