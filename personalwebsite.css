@@ -120,7 +120,7 @@ a:active {
 
 .button:hover {
 	background-color: #614BF2;
-	color: black;
+	color: white;
 	border: 0vw;
 	border-radius: 25vw;
 }
@@ -151,7 +151,7 @@ a:active {
 #navbar a:hover,
 dropdown:hover .dropbtn {
 	background-color: #E5E3E4;
-	color: #469697;
+	color: black;
 }
 
 /*
