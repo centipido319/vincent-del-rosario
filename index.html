@@ -3,513 +3,1223 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="personalwebsite.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 	<link rel="icon" href="./Images/VSDR LOGO.png" type="image/png">
 	<title>Vincent Del Rosario</title>
+
 </head>
 
-<body id="welcome">
+<body class="bg-dark">
 
-	<div id="navbar">
-		<a href="#aboutPage">About</a>
-		<a href="#experiencePage">Experiences</a>
-		<a href="#educationPage">Education</a>
-		<a href="#galleryPage">Gallery</a>
-		<a href="#projectPage">Projects</a>
-		<a href="#contactPage">Contact</a>
-		<a style="float:right" class="active" href="index.html">Home</a>
-	</div>
+	<div id="centipido319">
+		<nav class="navbar navbar-expand-lg navbar-light bg-yellow sticky-top">
+			<div class="container">
+				<!-- Navigation -->
+				<div class="container-fluid justify-content-between">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav me-auto">
+							<li class="nav-item"></li>
+							<a class="nav-link active ps-3 pe-5" aria-current="page"
+								href="#centipido319">centipido319</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ms-auto">
 
+							<li class="nav-item ps-3 pe-5">
+								<a class="nav-link" href="#projects">projects</a>
+							</li>
+							<li class="nav-item ps-3 pe-5">
+								<a class="nav-link" href="#education">education</a>
+							</li>
+							<li class="nav-item ps-3 pe-5">
+								<a class="nav-link" href="#contact">contact</a>
+							</li>
+							<li class="nav-item ps-3">
+								<a href="Images/DEL_ROSARIO VINCENT_CV.pdf" target="_blank" class="btn btn-dark "
+									role="button">
+									<i class="bi bi-file-text "></i> Download CV
+								</a>
+							</li>
 
-	<div>
-		<svg viewBox="30 120 300 50" xmlns="http://www.w3.org/2000/svg">
-			<path fill="#469697"
-				d="M25.8,-46.3C33.3,-35.3,39.2,-27.9,43.6,-19.5C48,-11.1,51,-1.7,54.5,11.3C58,24.2,62,40.7,56.4,50.9C50.8,61.1,35.5,65.1,21.5,66C7.4,66.9,-5.5,64.8,-21.2,63.9C-36.8,63,-55.2,63.4,-65.4,54.9C-75.6,46.3,-77.5,28.9,-72.4,15C-67.3,1.1,-55,-9.2,-46.5,-18.5C-38,-27.8,-33.2,-36,-26.1,-47.2C-19,-58.3,-9.5,-72.4,-0.2,-72.2C9.1,-71.9,18.3,-57.3,25.8,-46.3Z"
-				transform="translate(100 100)" />
-		</svg>
-
-		<h1 id="headerwords">Welcome</h1>
-
-		<p id="par1">
-			In this website, you will know the people behind this beautiful user-interface<br>and learn their background
-			about programming and HTML. <br>Get started by scrolling down or use the menu to navigate the website.
-		</p>
-
-		<br><br>
-
-		<svg viewBox="-140 40 300 70" xmlns="http://www.w3.org/2000/svg">
-			<path fill="#469697"
-				d="M30.4,-42.6C39.1,-41.8,45.5,-32.8,54.1,-22.3C62.7,-11.8,73.4,0.2,72.8,11.1C72.1,22,60.1,31.8,50.5,44.8C40.9,57.8,33.7,73.9,23.6,73.9C13.6,73.9,0.7,57.8,-13,50.8C-26.7,43.8,-41.2,46.1,-54,41.3C-66.9,36.5,-78,24.6,-81.7,10.7C-85.4,-3.3,-81.6,-19.4,-74.6,-33.8C-67.6,-48.1,-57.4,-60.8,-44.4,-59.6C-31.5,-58.5,-15.7,-43.6,-2.4,-39.8C10.9,-36,21.8,-43.4,30.4,-42.6Z"
-				transform="translate(100 100)" />
-		</svg>
-	</div>
-
-
-
-
-
-	<div id="aboutPage">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div class="clearfix">
-			<div class="card">
-				<center>
-					<img class="profpic" src="./Images/vincentGreenImage.png" alt="Vincent Del Rosario">
-					<h3> Vincent<br>Del Rosario </h3>
-					<hr class="hr1">
-					<h4>IT Student</h4>
-				</center>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div class="desc">
-				<h2>Hello!</h2>
-				<p class="text1">Here is who I am, & what I do
-					<br><br>
-					I am a third-year college student in Batangas State University and currently taking Bachelor of
-					Science
-					in Information Technology major in Service Management.
-					<br><br>
-					I am the developer of this beautiful website and I hope you'll learn about me and my chosen
-					profession.
+		</nav>
+
+		<!-- Profile Section -->
+		<div class="container vh-90 d-flex align-items-center pt-4">
+			<div class="row w-100 ps-3">
+				<!-- Left section (image content) -->
+				<div
+					class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start text-center text-md-start mb-4 mb-md-0">
+					<img src="Images/profile_yellow.png" alt="Vincent Image" class="img-fluid mb-4">
+				</div>
+
+				<!-- Right section (text and social icons) -->
+				<div
+					class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start justify-content-center text-center text-md-start">
+					<div class="intro-text">
+						<p>Hi There! I am</p>
+						<h1><b>Vincent</b> Del Rosario</h1>
+						<p>Web Designer & Graphic Artist</p>
+						<div class="social-icons">
+							<a href="https://www.instagram.com/centipido319/" target="_blank"><i
+									class="bi bi-instagram"></i></a>
+							<a href="https://www.facebook.com/centipido319/" target="_blank"><i
+									class="bi bi-facebook"></i></a>
+							<a href="https://github.com/centipido319" target="_blank"><i class="bi bi-github"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wave-background d-flex justify-content-center align-items-center">
+			<div class="col-md-9 text-column text-center div-box1 ">
+
+				<h1 class="mb-0 pt-md-0 pt-5">ABOUT ME</h1>
+				<p class="pt-md-5 pt-2"> As a graduate with a BS in Information Technology, I specialize in web
+					development,
+					blending creativity with technical expertise to build engaging and functional websites. Throughout
+					my journey, I’ve gained hands-on experience in web-based portal development and hardware
+					requirements, bolstered by an OJT at a web development company. My skills range from coding and
+					problem-solving to delivering user-friendly digital solutions.
+
+					Driven by a passion for continuous learning and growth, I aim to develop innovative digital
+					experiences
+					that make a real impact. Let's collaborate and bring your ideas to life!
 				</p>
 			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
 
 
+		<section id="projects" class="pb-5">
 
+			<div class="d-flex flex-column mx-auto pt-5 div-box1">
 
+				<div>
+					<div class="d-flex justify-content-between align-items-center mb-3 pt-5">
+						<h1 class="mb-0"> <i class="bi bi-laptop d-none d-md-inline"></i> Design</h1>
+						<hr class="bg-yellow opacity-100 border-top-0 ms-3" style="height: 6px; width: 75%;">
+					</div>
 
-	<div id="experiencePage">
-		<center>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<h3>Experiences</h3>
-			<br>
-			<img src="./Images/ictcp.jpg" class="projimg2">
-			<p class="par1"> I learned a lot about programming and in information technology itself when I was in senior
-				high school.<br>
-				My skills and knowledge about video and image editing softwares was also greatly enhanced.<br>
-			<p>
-
-				<br><br>
-				<img src="./Images/experience2.jpg" class="projimg2">
-			<p class="par1"> Now that I am in college, I am open to gain more knowledge in my chosen profession.<br>
-				As of now, I was able to do some cool projects such as websites and information systems.<br>
-
-			<p>
-
-				<br><br>
-				<img src="./Images/bcc.jpg" class="projimg2">
-			<p class="par1"> To enhance my photography and video editing skills, I joined FOCUS BatStateU Camera
-				Club.<br>
-
-				<br><br>
-				<img src="./Images/bcc2.jpg" class="projimg2">
-			<p class="par1"> This photo is my winning piece for #StayFOCUSatHome++ with the theme - 1970's.<br>
-
-				<br><br>
-				<img src="./Images/bcc3.jpg" class="projimg2">
-			<p class="par1"> I was part of the editing team for the "Himig ng Paskong Red Spartan - BatStateU Christmas
-				ID 2021".<br>
-		</center>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-
-
-
-
-	<div id="educationPage">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<center>
-			<h3>Educational Attainment</h3>
-		</center>
-		<div class="vl"></div>
-		<div class="clearfix">
-			<div class="eduleft">
-				<table>
-					<th style="padding: 1vw">
-						<img src="./Images/elemLogo.jpg" class="schoolLogo">
-					</th>
-					<th class="tableTextLeftAlign">
-						<h4>Primary Education</h4>
-						<p>Bangatan Elementary School
-							<br>Bangatan, Gattaran, Cagayan
-							<br>2008 - 2014
-						</p>
-					</th>
-				</table>
-			</div>
-		</div>
-
-		<div class="eduright">
-			<table>
-				<th class="tableTextRightAlign">
-					<h4>Junior High School Education</h4>
-					<p>Christ Faith Child Academy
-						<br>Purok 1, Masaya, Rosario, Batangas, 4225 Philippines
-						<br>2014 - 2018
+					<p class="pt-3 light-text">
+						Design goes beyond appearance—it's about creating something that works inside and out. How the
+						design functions and how usersfeel interacting with it. My goal is to craft digital experiences
+						and interfaces that are not only visually appealing but also enjoyable and intuitive.
 					</p>
-				</th>
-				<th>
-					<img src="./Images/jhsLogo.jpg" class="schoolLogo">
-				</th>
-			</table>
-		</div>
 
-		<div class="clearfix">
-			<div class="eduleft">
-				<table>
-					<th style="padding: 1vw">
-						<img src="./Images/shsLogo.jpg" class="schoolLogo">
-					</th>
-					<th class="tableTextLeftAlign">
-						<h4>Senior High School Education</h4>
-						<p>Lyceum of the Philippines University - Batangas
-							<br>Riverside Campus, Gulod Labac, Batangas City
-							<br>Technical Vocational – ICT specialized in Computer Programming
-							<br>2018 - 2020
-						</p>
-					</th>
-				</table>
-			</div>
-		</div>
+					<div class="container text-center pt-md-4 pt-0">
+						<div class="row flex-lg-nowrap justify-content-center">
 
-		<div class="eduright">
-			<table>
-				<th class="tableTextRightAlign">
-					<h4>College Education</h4>
-					<p>Batangas State University
-						<br>Golden Country Homes Subdivision, Alangilan, Batangas City
-						<br>BS Information Technology
-						<br>2020-present
-					</p>
-				</th>
-				<th>
-					<img src="./Images/collegeLogo.jpg" class="schoolLogo">
-				</th>
-			</table>
-		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
+							<!-- Portfolio Modal Image Button-->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#portfolioModal">
+									<div class="hover-container">
+										<img src="Images/portfolio_mockup_preview.png" class="img-fluid hover-image"
+											alt="Image 1">
+										<div class="hover-text">
+											<b class="text-yellow">Mock Up - Web Portfolio<br>
+												<span class="light-text">(2021)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
 
+							<!-- JDC Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#jdcModal">
+									<div class="hover-container">
+										<img src="Images/jdc_mockup_preview.png" class="img-fluid hover-image"
+											alt="Image 2">
+										<div class="hover-text">
+											<b class="text-yellow">JDC Mockup Website<br>
+												<span class="light-text">(2024)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
 
+							<!-- ARC Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#arcModal">
+									<div class="hover-container">
+										<img src="Images/arc_mockup_preview.png" class="img-fluid hover-image"
+											alt="Image 2">
+										<div class="hover-text">
+											<b class="text-yellow">Anchor Recovery Community Mockup Website<br>
+												<span class="light-text">(2024)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
 
-
-
-	<div id="galleryPage">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<center>
-			<h3> Gallery</h3>
-
-			<p class="par1">The Images below are taken since my junior high school journey up to my college days.</p>
-
-			<br>
-
-			<h4>Junior High School</h4>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/jhs1.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/jhs2.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/jhs3.jpg" class="imgfrt">
-				</div>
-			</div>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/jhs4.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/jhs5.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/jhs6.jpg" class="imgfrt">
-				</div>
-			</div>
-
-			<br><br>
-
-			<h4>Senior High School</h4>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/shs1.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/shs2.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/shs3.jpg" class="imgfrt">
-				</div>
-			</div>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/shs4.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/shs5.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/shs6.jpg" class="imgfrt">
-				</div>
-			</div>
-
-			<br><br>
-
-			<h4>Immersion (80 hours)</h4>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/img4.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/img5.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/img6.jpg" class="imgfrt">
-				</div>
-			</div>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/img7.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/img8.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/img9.jpg" class="imgfrt">
-				</div>
-			</div>
-
-
-			<br><br>
-
-			<h4>College</h4>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/college1.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/college2.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/college3.jpg" class="imgfrt">
-				</div>
-			</div>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<img src="./Images/college4.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/college5.jpg" class="imgfrt">
-				</div>
-				<div class="img-container">
-					<img src="./Images/college6.jpg" class="imgfrt">
-				</div>
-			</div>
-
-		</center>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-
-
-
-
-	<div id="projectPage">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<center>
-			<h3>Projects</h3>
-			<br>
-			<h4>Identification Card</h4>
-			<br>
-			<img src="./Images/idfront.jpg" class="projimg1">
-			<img src="./Images/idback.jpg" class="projimg1">
-			<p class="par1"> I designed and edited an identification card for a school and it took me a month to
-				finish<br>
-				all the identification cards.
-			<p>
-
-				<br>
-			<h4>Coffee Shop Website</h4>
-			<br>
-			<img src="./Images/kb1.png" class="projimg2">
-			<img src="./Images/kb2.png" class="projimg2">
-			<p class="par1"> We designed a website for our chosen coffee shop for our final project in one of our
-				major<br>
-				subject when I was Grade 11.
-			<p>
-
-				<br>
-			<h4>MedDb Management System</h4>
-			<br>
-			<img src="./Images/proj1.jpg" class="projimg2">
-			<p class="par1"> We made a system called <b>MedDb Management System</b> which is a pharmacy system.<br>
-				It stores information of medicine such as generic name, price and quantity.
-			<p>
-
-				<br>
-			<h4>Barker: Automated Bus System</h4>
-			<br>
-			<img src="./Images/proj2.jpg" class="projimg2">
-			<p class="par1"> We also develop a system called <b>Barker Kiosk</b> which is an Automated Bus System.<br>
-				It is used to reserve a seat and pay fare cashless for convenience.
-			<p>
-		</center>
-
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div>
-
-
-
-
-
-	<div id="contactPage">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<center>
-			<h3>Contacts</h3>
-			<br>
-			<div class="clearfix">
-				<div class="img-container">
-					<div class="polaroid">
-						<img src="./Images/fblogo.jpg" style="width:100%">
-						<div class="container">
-							<a href="https://www.facebook.com/centipido319"
-								target="_blank">Facebook:<br>@centipido319</a>
 						</div>
 					</div>
-				</div>
 
-				<div class="img-container">
-					<div class="polaroid">
-						<img src="./Images/iglogo.jpg" style="width:100%">
-						<div class="container">
-							<a href="https://www.instagram.com/centipido319"
-								target="_blank">Instagram:<br>@centipido319</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="img-container">
-					<div class="polaroid">
-						<img src="./Images/twlogo.jpg" style="width:100%">
-						<div class="container">
-							<a href="https://www.twitter.com/centipido319" target="_blank">Twitter:<br>@centipido319</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="clearfix">
-				<div class="img-container">
-					<div class="polaroid">
-						<img src="./Images/ytlogo.jpg" style="width:100%">
-						<div class="container">
-							<a href="https://www.youtube.com/channel/UCRS6pr3AJcOloyhOoXqjWOg"
-								target="_blank">Youtube:<br>Vincent Del Rosario</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="img-container">
-					<div class="polaroid">
-						<img src="./Images/maillogo.jpg" style="width:100%">
-						<div class="container">
-							<a href="mailto:centipido319@gmail.com"">Gmail:<br>centipido319@gmail.com</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class=" img-container">
-								<div class="polaroid">
-									<img src="./Images/calllogo.jpg" style="width:100%">
+					<!-- Portfolio Modal-->
+					<div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="portfolioModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
 									<div class="container">
-										<a>Phone No.:<br>09123456789</a>
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the first div -->
+													<img src="Images/portfolio_mockup.png"
+														class="img-fluid rounded-start" alt="...">
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Web Portfolio Mockup</h1>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-figma-plain icon-hover"
+															data-hover="devicon-figma-plain colored"></i>
+														<i class="devicon-photoshop-plain icon-hover"
+															data-hover="devicon-photoshop-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
 						</div>
 					</div>
-		</center>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+
+					<!-- JDC Modal -->
+					<div class="modal fade" id="jdcModal" tabindex="-1" aria-labelledby="jdcModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="jdcModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the first div -->
+													<img src="Images/jdc_mockup.png" class="img-fluid rounded-start"
+														alt="...">
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5">JDC MockUp Website</h1>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3 a">
+														<i class="devicon-figma-plain icon-hover"
+															data-hover="devicon-figma-plain colored"></i>
+														<i class="devicon-photoshop-plain icon-hover"
+															data-hover="devicon-photoshop-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- ARC Modal -->
+					<div class="modal fade" id="arcModal" tabindex="-1" aria-labelledby="arcModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="arcModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the first div -->
+													<img src="Images/arc_mockup.png" class="img-fluid rounded-start"
+														alt="...">
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5">JDC MockUp Website</h1>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3 a">
+														<i class="devicon-figma-plain icon-hover"
+															data-hover="devicon-figma-plain colored"></i>
+														<i class="devicon-photoshop-plain icon-hover"
+															data-hover="devicon-photoshop-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="d-flex justify-content-between align-items-center mb-3 pt-5">
+						<h1 class="mb-0"> <i class="bi bi-code-slash d-none d-md-inline"></i> Development</h1>
+						<hr class="bg-yellow opacity-100 border-top-0 ms-3" style="height: 6px; width: 60%;">
+					</div>
+					<p class="pt-3 light-text">With a solid background in information technology, I’m passionate about
+						web development. As I continue to grow as a developer, my focus is on writing clean, readable
+						code that not only serves others but also powers the creation of beautiful, impactful websites.
+					</p>
+
+					<div class="container text-center pt-4">
+						<div class="row flex-lg-nowrap justify-content-center">
+
+							<!-- DJAPINHS Modal Image Button-->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#djapinhsModal">
+									<div class="hover-container">
+										<img src="Images/djapinhs_preview.png" class="img-fluid hover-image"
+											alt="Image 1">
+										<div class="hover-text">
+											<b class="text-yellow">DJAPINHS SHS Portal<br>
+												<span class="light-text">(2024)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- SSSavor Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#sssavorModal">
+									<div class="hover-container">
+										<img src="Images/sarisarisavor_preview.png" class="img-fluid hover-image"
+											alt="Image 2">
+										<div class="hover-text">
+											<b class="text-yellow">Sari Sari Savor<br>
+												<span class="light-text">(2023)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- Barker Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#barkerModal">
+									<div class="hover-container">
+										<img src="Images/barker_preview.png" class="img-fluid hover-image"
+											alt="Image 2">
+										<div class="hover-text">
+											<b class="text-yellow">Barker Kiosk<br>
+												<span class="light-text">(2022)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- DJAPINHS Modal-->
+					<div class="modal fade" id="djapinhsModal" tabindex="-1" aria-labelledby="djapinhsModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="djapinhsModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the first div -->
+													<img src="Images/djapinhs_portal.png"
+														class="img-fluid rounded-start" alt="...">
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Dr. Juan A. Pastor Integrated
+														National High School - SHS Portal</h1>
+													<a href="https://www.djapinhs-portal.com/shs-login" target="_blank"
+														class="btn btn-sm bg-yellow btn-dark mt-2" role="button">
+														<i class="bi bi-link-45deg"></i> Go to Website
+													</a>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-python-plain icon-hover"
+															data-hover="devicon-python-plain colored"></i>
+														<i class="devicon-flask-plain icon-hover"
+															data-hover="devicon-flask-plain colored"></i>
+														<i class="devicon-html5-plain icon-hover"
+															data-hover="devicon-html5-plain colored"></i>
+														<i class="devicon-bootstrap-plain icon-hover"
+															data-hover="devicon-bootstrap-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SSSavor Modal -->
+					<div class="modal fade" id="sssavorModal" tabindex="-1" aria-labelledby="sssavorModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="sssavorModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="row g-2">
+													<!-- Gallery Item 1 -->
+													<div class="col-6">
+														<img src="Images/ssavor_1.png" alt="Image 1"
+															class="img-fluid rounded">
+													</div>
+													<!-- Gallery Item 2 -->
+													<div class="col-6">
+														<img src="Images/ssavor_2.png" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+													<!-- Gallery Item 3 -->
+													<div class="col-6">
+														<img src="Images/ssavor_3.png" alt="Image 3"
+															class="img-fluid rounded">
+													</div>
+													<!-- Gallery Item 4 -->
+													<div class="col-6">
+														<img src="Images/ssavor_4.png" alt="Image 4"
+															class="img-fluid rounded">
+													</div>
+													<!-- Gallery Item 5 -->
+													<div class="col-6">
+														<img src="Images/ssavor_5.png" alt="Image 5"
+															class="img-fluid rounded">
+													</div>
+													<!-- Gallery Item 6 -->
+													<div class="col-6">
+														<img src="Images/ssavor_6.png" alt="Image 6"
+															class="img-fluid rounded">
+													</div>
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Sari Sari Savor: Recipe Finder
+														App</h1>
+													<a href="https://github.com/centipido319/sari-sari-savor"
+														target="_blank" class="btn btn-sm bg-yellow btn-dark mt-2"
+														role="button">
+														<i class="bi bi-link-45deg"></i> Repository
+													</a>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-ionic-original icon-hover"
+															data-hover="devicon-ionic-original colored"></i>
+														<i class="devicon-javascript-plain icon-hover"
+															data-hover="devicon-javascript-plain colored"></i>
+														<i class="devicon-html5-plain icon-hover"
+															data-hover="devicon-html5-plain colored"></i>
+														<i class="devicon-bootstrap-plain icon-hover"
+															data-hover="devicon-bootstrap-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Barker Modal -->
+					<div class="modal fade" id="barkerModal" tabindex="-1" aria-labelledby="barkerModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="barkerModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the first div -->
+													<img src="Images/barker.jpg" class="img-fluid rounded-start"
+														alt="...">
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Barker Kiosk</h1>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-python-plain icon-hover"
+															data-hover="devicon-python-plain colored"></i>
+														<i class="devicon-django-plain icon-hover"
+															data-hover="devicon-django-plain colored"></i>
+														<i class="devicon-html5-plain icon-hover"
+															data-hover="devicon-html5-plain colored"></i>
+														<i class="devicon-bootstrap-plain icon-hover"
+															data-hover="devicon-bootstrap-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div>
+					<div class="d-flex justify-content-between align-items-center mb-3 pt-5">
+						<h1 class="mb-0"><i class="bi bi-camera d-none d-md-inline"></i> Creatives</h1>
+						<hr class="bg-yellow opacity-100 border-top-0 ms-3" style="height: 6px; width: 70%;">
+					</div>
+					<p class="card-text pt-3 light-text">
+						I love capturing moments and telling stories through photography, photo editing, and video
+						production. I enjoy the creative process of transforming raw visuals into compelling narratives.
+						I aim to deliver content that resonates visually and emotionally.
+					</p>
+
+					<div class="container text-center pt-4">
+						<div class="row flex-lg-nowrap justify-content-center">
+
+							<!-- CFCA ID Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#cfcaIDModal">
+									<div class="hover-container">
+										<img src="Images/cfca_id.png" class="img-fluid hover-image" alt="Image 1">
+										<div class="hover-text">
+											<b class="text-yellow">CFCA Identification Card<br>
+												<span class="light-text">(2021)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- Uno Skin Essentials Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#unoSEModal">
+									<div class="hover-container">
+										<img src="Images/uno_se.png" class="img-fluid hover-image" alt="Image 2">
+										<div class="hover-text">
+											<b class="text-yellow">UNO Skin Essentials<br>
+												<span class="light-text">(2024)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- Youtube Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#youtubeModal">
+									<div class="hover-container">
+										<img src="Images/vlogs_preview.png" class="img-fluid hover-image" alt="Image 2">
+										<div class="hover-text">
+											<b class="text-yellow">Youtube Channel<br>
+												<span class="light-text">(2024)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- CFCA ID Modal-->
+					<div class="modal fade" id="cfcaIDModal" tabindex="-1" aria-labelledby="cfcaIDModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="cfcaIDModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="row g-2">
+													<!-- Gallery Item 1 -->
+													<div class="col-6">
+														<img src="Images/cfca_id_front.jpg" alt="Image 1"
+															class="img-fluid rounded">
+													</div>
+													<!-- Gallery Item 2 -->
+													<div class="col-6">
+														<img src="Images/cfca_id_back.jpg" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Christ Faith Child Academy
+														Identification Card</h1>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-photoshop-plain icon-hover"
+															data-hover="devicon-photoshop-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Uno Skin Essentials Modal -->
+					<div class="modal fade" id="unoSEModal" tabindex="-1" aria-labelledby="unoSEModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="unoSEModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="row g-2">
+													<div class="col-6">
+														<img src="Images/uno_1.png" alt="Image 1"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-6">
+														<img src="Images/uno_2.png" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-6">
+														<img src="Images/uno_3.png" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-6">
+														<img src="Images/uno_4.png" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Uno Skin Essentials</h1>
+
+													<a href="https://www.instagram.com/unoskinessentials/"
+														target="_blank" class="btn btn-sm bg-yellow btn-dark mt-2"
+														role="button">
+														<i class="bi bi-link-45deg"></i> Go to Page
+													</a>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-photoshop-plain icon-hover"
+															data-hover="devicon-photoshop-plain colored"></i>
+														<i class="devicon-canva-plain icon-hover"
+															data-hover="devicon-canva-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Youtube Modal -->
+					<div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="youtubeModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="youtubeModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the first div -->
+													<div class="ratio ratio-16x9">
+														<iframe width="853" height="480"
+															src="https://www.youtube.com/embed/1iK-sITwPVs"
+															title="ICTCP 2A BATCH &#39;19  &#39;20 | VINCENT DEL ROSARIO"
+															frameborder="0"
+															allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+															referrerpolicy="strict-origin-when-cross-origin"
+															allowfullscreen></iframe>
+													</div>
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">Vincent Del Rosario -YouTube
+														Channel</h1>
+													<a href="https://www.youtube.com/@centipido319" target="_blank"
+														class="btn btn-sm bg-yellow btn-dark mt-2" role="button">
+														<i class="bi bi-link-45deg"></i> Go to Channel
+													</a>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h5 class="pt-3">
+														Sony Vegas Pro
+													</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container text-center pt-md-3 pt-0">
+						<div class="row flex-lg-nowrap justify-content-center">
+
+							<!-- FamSquad Modal Image Button -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#famsquadModal">
+									<div class="hover-container">
+										<img src="Images/famsquad_preview.png" class="img-fluid hover-image" alt="Image 1">
+										<div class="hover-text">
+											<b class="text-yellow">FamSquad<br>
+												<span class="light-text">(2024)</span>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- Photography Modal Image Button  -->
+							<div class="col-12 col-lg-4 m-md-1 m-2 d-flex align-items-stretch position-relative">
+								<a href="#" data-bs-toggle="modal" data-bs-target="#photographyModal">
+									<div class="hover-container">
+										<img src="Images/photog_preview.jpg" class="img-fluid hover-image" alt="Image 1">
+										<div class="hover-text">
+											<b class="text-yellow">Photography<br>
+											</b>
+										</div>
+									</div>
+								</a>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- FamSquad Modal-->
+					<div class="modal fade" id="famsquadModal" tabindex="-1" aria-labelledby="famsquadModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="famsquadModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="row g-2">
+													<div class="col-6">
+														<img src="Images/famsquad_1.png" alt="Image 1"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-6">
+														<img src="Images/famsquad_2.jpg" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-6">
+														<img src="Images/famsquad_3.jpg" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-6">
+														<img src="Images/famsquad_4.jpg" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">
+														FamSquad
+													</h1>
+													<a href="https://www.instagram.com/famsquad_0614/" target="_blank"
+														class="btn btn-sm bg-yellow btn-dark mt-2" role="button">
+														<i class="bi bi-link-45deg"></i> Go to Page
+													</a>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+													<h2 class="pt-3">
+														<i class="devicon-photoshop-plain icon-hover"
+															data-hover="devicon-photoshop-plain colored"></i>
+														<i class="devicon-canva-plain icon-hover"
+															data-hover="devicon-canva-plain colored"></i>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photography Modal -->
+					<div class="modal fade" id="photographyModal" tabindex="-1" aria-labelledby="photographyModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content bg-dark">
+								<div class="modal-header">
+									<h5 class="modal-title" id="photographyModalLabel"></h5>
+									<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+										aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- First div (column) -->
+											<div class="col-md-6">
+												<div class="row g-2">
+													<div class="col-12">
+														<img src="Images/photog_1.jpeg" alt="Image 1"
+															class="img-fluid rounded">
+													</div>
+													<div class="col-12">
+														<img src="Images/photog_2.jpg" alt="Image 2"
+															class="img-fluid rounded">
+													</div>
+												</div>
+											</div>
+
+											<!-- Second div (column) -->
+											<div class="col-md-6">
+												<div class="">
+													<!-- Content for the second div -->
+													<h1 class="pt-md-0 pt-5 text-yellow">
+														Photography
+													</h1>
+													<p class="pt-3">
+														Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														Libero, dolor nobis, necessitatibus amet saepe hic voluptatem
+														recusandae mollitia blanditiis aspernatur corrupti officia nam,
+														ipsam pariatur numquam laboriosam sit fugiat architecto?
+
+														<br><br>
+
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+														Expedita officiis quibusdam consequuntur illo nam? Aliquam ipsum
+														magnam reprehenderit, inventore quibusdam consequuntur non
+														praesentium delectus amet similique assumenda rem minima?
+														Temporibus!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="education" class="bg-yellow mt-5 pb-5">
+
+			<div class=" d-flex justify-content-center align-items-center">
+				<div class="col-md-9 text-column div-box1 text-dark">
+					<h1 class="text-center mb-4">Education</h1>
+					<div class="container timeline">
+				
+						<!-- Timeline Item 0 (Right) -->
+						<div class="row timeline-item">
+							<div class="col-md-6 text-center">
+								<div class="timeline-circle">
+									<img src="Images/elem_logo.jpg" class="img_2" alt="Senior High School Logo" style="width:100%;">
+								</div>
+							</div>
+							<div class="col-md-6 timeline-right ps-5">
+								<div class="timeline-content">
+									<h4>Elementary </h4>
+									<p>
+										Bangatan Elementary School <br>
+										Bangatan, Gattaran, Cagayan <br>
+										2018 - 2020
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Timeline Item 1 (Left) -->
+						<div class="row timeline-item">
+							<div class="col-md-6 timeline-left pe-md-5 ps-5">
+								<div class="timeline-content">
+									<h4>Junior High School </h4>
+									<p>Christ Faith Child Academy<br>Rosario, Batangas<br>2014 - 2018</p>
+								</div>
+							</div>
+							<div class="col-md-6 text-center">
+								<div class="timeline-circle">
+									<img src="Images/jhs_logo.jpg" class="img_2" alt="Junior High School Logo" style="width:100%;">
+								</div>
+							</div>
+						</div>
+				
+						<!-- Timeline Item 2 (Right) -->
+						<div class="row timeline-item">
+							<div class="col-md-6 text-center">
+								<div class="timeline-circle">
+									<img src="Images/shs_logo.jpg" class="img_2" alt="Senior High School Logo" style="width:100%;">
+								</div>
+							</div>
+							<div class="col-md-6 timeline-right ps-5">
+								<div class="timeline-content">
+									<h4>Senior High School </h4>
+									<p>Lyceum of the Philippines University - Batangas<br>2018 - 2020</p>
+								</div>
+							</div>
+						</div>
+				
+						<!-- Timeline Item 3 (Left) -->
+						<div class="row timeline-item">
+							<div class="col-md-6 timeline-left pe-md-5 ps-5">
+								<div class="timeline-content">
+									<h4>College </h4>
+									<p>Batangas State University<br>BS Information Technology<br>2020 - 2024</p>
+								</div>
+							</div>
+							<div class="col-md-6 text-center">
+								<div class="timeline-circle">
+									<img src="Images/college_logo.jpg" class="img_2" alt="College Logo" style="width:100%;">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="contact">
+
+			<div class=" d-flex justify-content-center align-items-center">
+				<div class="col-md-9 text-column text-center div-box1 ">
+					<h1>
+						<i class="bi bi-send"></i><br><br>
+						Get In Touch!
+					</h1>
+					<p>
+						Whether you have an idea for a project or just want to chat, feel free to shoot me an email!
+					</p>
+					<div>
+						<a href="mailto:centipido319@gmail.com" target="_blank" class="btn bg-yellow btn-dark mt-2">
+							Send Email
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
 	</div>
 
-	<center>
-		<p> Vincent Sulit Del Rosario | 2022
-	</center>
+
+
+	<section id="education" class="bg-yellow mt-5 pb-1">
+			<p class="pt-3 text-dark text-center"> Vincent Sulit Del Rosario | 2024
+	</section>
+
 
 
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+	</script>
+
 <script>
-	window.onscroll = function () { myFunction() };
+	// Select all elements with the 'icon-hover' class
+	const icons = document.querySelectorAll(".icon-hover");
 
-	var navbar = document.getElementById("navbar");
-	var sticky = navbar.offsetTop;
+	icons.forEach(icon => {
+		// Add event listener for hover (mouseover)
+		icon.addEventListener("mouseover", function () {
+			this.classList.add("colored"); // Add the hover class to change color
+		});
 
-	function myFunction() {
-		if (window.pageYOffset >= sticky) {
-			navbar.classList.add("sticky")
-		} else {
-			navbar.classList.remove("sticky");
-		}
-	}
+		// Add event listener for mouseout (when hover ends)
+		icon.addEventListener("mouseout", function () {
+			this.classList.remove("colored"); // Remove the hover class to revert to original
+		});
+	});
 </script>
 
 </html>
