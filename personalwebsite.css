@@ -198,6 +198,10 @@ img {
     margin-left: auto;
 }
 
+.clickable-image {
+    cursor: pointer;
+}
+
 @media (max-width: 767.98px) {
     .div-box1 {
         width: 90%;
